@@ -1,0 +1,8 @@
+[Unit]
+Description=Runs the CPU cooling fan
+
+[Service]
+ExecStart=/usr/bin/cpu-fan
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,25 @@
+
+{
+	"configurations":
+	{
+		"release":
+		{
+			"define":
+			[
+				"RELEASE_BUILD",
+				"NDEBUG"
+			],
+			"include":
+			[
+				"./gpiomem"
+			],
+			"optimisation":"2",
+			"debug_level":"0"
+		}
+	},
+	"source_files":
+	[
+		"./main.cpp",
+		"./gpiomem/gpiomem.cpp"
+	]
+}
